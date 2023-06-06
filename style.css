@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/gym_fitness.jpg');
+    /* background-image: ; */
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    /* color: rgb(161, 161, 161); */
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 12px;
+}
+
+
+.left img {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    margin: 0px;
+    border: 4px solid rgb(255, 223, 0);
+    border-radius: 80px;
+}
+
+.left div {
+    text-align: center;
+    color: rgb(255, 223, 0);
+    line-height: 18px;
+}
+
+.left sub {
+    color: gray;
+    font-size: xx-small;
+}
+
+.left a {
+    text-decoration: none;
+}
+
+.mid {
+    display: inline-block;
+    /* width: 20%; */
+    margin: 12px 425px;
+    padding: 0px 0px;
+    /* border: 2px solid red; */
+}
+
+.nav-bar li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline red;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 12px;
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    padding: 6px 30px;
+    margin: 14px 8px;
+    color: white;
+    background: none;
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: red;
+    size: auto;
+}
+
+.container {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    width: 33%;
+    margin: 85px 125px;
+    padding: 25px;
+    border: 2px solid white;
+    border-radius: 12px;
+
+}
+
+.container h1 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.form-group input {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 2px 2px;
+    margin: 8px auto;
+    border-radius: 4px;
+}
+
+.container button {
+    display: block;
+    width: 33%;
+    margin: auto;
+}
